@@ -18,7 +18,7 @@ a:focus {
 
 p {
     padding: 0;
-    margin: 0 0 30px 0;
+    margin: 0 0 0 0;
 }
 
 
@@ -31,14 +31,14 @@ p,
 div {
     font-family: 敺株��迤暺煾��, sans-serif;
     font-weight: 400;
-    margin: 0 0 20px 0;
+    margin: 0 0 0 0;
     padding: 0;
 }
 
 #news {
-    position: absolute;
-    top: 700px;
-    left: 250px;
+    /* position: absolute; */
+    /* top: 700px;
+    left: 250px; */
     text-align: justify;
     letter-spacing: 4px;
 }
@@ -556,10 +556,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about {
     background: #fff;
-    padding: 50px 0;
-    position: absolute;
-    top: 890px;
-    left: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: justify;
 
 
@@ -653,24 +651,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Advisor Section */
 #advisor {
-    background: #fff;
     padding: 4em 0;
-    position: absolute;
-    top: 2500px;
-    left: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: justify;
 }
-
-
 
 #advisor .advisor-container .background {
     min-height: 300px;
     background: url(../img/about-iebi.png) center no-repeat;
     margin-bottom: 10px;
-}
-
-#advisor .advisor-container .content {
-    background: #fff;
 }
 
 #advisor .advisor-container .title {
@@ -1007,9 +997,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   --------------------------------*/
 #project {
     letter-spacing: 1px;
-    position: absolute;
-    top: 4600px;
-    left: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #project.publish {
@@ -1024,9 +1013,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: #fff;
     padding: 80px 0 60px 0;
     margin: auto;
-    position: absolute;
-    top: 4000px;
-    left: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     letter-spacing: 3px;
 }
 
@@ -1101,11 +1089,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   --------------------------------*/
 
 #contact {
-    background: #f7f7f7;
-    padding: 80px 200px 40px 200px;
-    position: absolute;
-    top: 6000px;
-    width: 100%;
+    background: #2dc997;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -1221,9 +1209,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 30px 0;
     color: #fff;
     font-size: 14px;
-    position: absolute;
-    top: 6500px;
-    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #footer .copyright {
@@ -1433,6 +1420,10 @@ section.featured-posts .post-footer {
     margin-top: 30px;
 }
 
+.section-odd {
+    background-color: #EEE;
+}
+
 
 /* Featured Posts Section Media Query ------------------------------------- */
 @media (max-width: 991px) {
@@ -1475,4 +1466,21 @@ section.featured-posts .post-footer {
 .fa-disabled {
     opacity: 0.6;
     cursor: not-allowed;
+}
+
+#news {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#news ul {
+    line-height: 1.5em;
+    margin: 5px 0 15px;
+    padding: 0;
+}
+
+#news li {
+    list-style: none;
+    position: relative;
+    padding: 5px 5px 5px 20px;
 }
