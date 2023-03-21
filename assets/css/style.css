@@ -1332,7 +1332,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-color: gray;
 }
 
-
+.carousel-inner .row {
+    margin-bottom: 20px;
+}
 
 /*--------------------------------------------------------------
   # blog
